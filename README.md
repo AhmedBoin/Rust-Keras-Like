@@ -1,6 +1,7 @@
 # Rust Keras Like
  Pure Rust implementaion for deep learning library like keras
-```use rkl::prelude::*;
+```
+use rkl::prelude::*;
 
 fn main() {
     let x = array![[1., 2.], [3., 4.], [5., 6.]];
