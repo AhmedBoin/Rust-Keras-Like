@@ -1,7 +1,7 @@
 # Rust Keras Like
  Pure Rust implementaion for deep learning library like keras
  
-```
+```rust
 use rkl::prelude::*;
 
 fn main() {
