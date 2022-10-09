@@ -1,0 +1,17 @@
+[package]
+name = "rkl"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "rkl"
+path = "./lib/mod.rs"
+
+[dependencies]
+ndarray = { version = "0.15.6", features = ["serde"] }
+ndarray-rand = "0.14.0"
+rand = "0.8.5"
+serde = { version = "1.0.145", features = ["derive"] }
+bincode = "1.3.3"
+savefile="0.11"
+savefile-derive="0.11"
